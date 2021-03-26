@@ -21,7 +21,10 @@ Universo Santa Tecla
    3.4. [Analisis de los Casos de Uso](#analisis-de-los-casos-de-uso)  
    3.4.1. [Analisis Start](#analisis-start)  
    3.4.2. [Analisis Mover_Pieza](#analisis-move-piece)  
-   3.4.3. [Analisis Resume](#analisis-resume)  
+   3.4.3. [Analisis Resume](#analisis-resume)
+4. [Diseño](#diseo)   
+   4.1. [Diseño de la arquitectura](#diseo-de-la-arquitectura)  
+   4.2. [Diseño de casos de uso](#diseo-de-casos-uso)
 
 ## Requisitos
 
@@ -117,4 +120,11 @@ Column: 3
 #### Analisis Resume
 ![Resume](./docs/diagrams/out/analysis/analisis_casouso_resume.svg)
 
- 
+## Diseño
+
+### Diseño de la arquitectura
+![Diseño](./docs/diagrams/out/design/diseño_la_arquitectura.svg)
+
+### Diseño de casos uso
+![Diseño](./docs/diagrams/out/design/diseño_caso_uso.svg)
+

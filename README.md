@@ -11,7 +11,7 @@ Universo Santa Tecla
 
 ## Modelo del dominio
 
-![Draughts](docs/images/mastermind.jpg)
+![Draughts](docs/images/draughts.jpg)
 
 ### Vocabulario
 
