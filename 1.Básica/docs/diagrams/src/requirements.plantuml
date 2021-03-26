@@ -1,0 +1,110 @@
+@startuml usecase
+left to right direction
+
+actor Player
+
+usecase Start
+usecase (Move piece)
+usecase Resume
+
+Player --> Start
+Player --> (Move piece) 
+Player --> Resume
+@enduml
+
+@startuml context
+state INITIAL
+state IN_GAME
+state OUT_GAME
+state EXIT
+state if_finished <<choice>>
+state if_resumed <<choice>>
+
+[*] --> INITIAL
+INITIAL --> IN_GAME : Start
+IN_GAME --> if_finished : Move piece
+if_finished --> IN_GAME
+if_finished --> OUT_GAME : [finished]
+OUT_GAME --> if_resumed : Resume
+if_resumed --> INITIAL : [continued]
+if_resumed --> EXIT
+EXIT --> [*]
+@enduml
+
+@startuml initial_usecase
+state INITIAL
+state IN_GAME
+state state1 as " "
+state state2 as " "
+
+[*] --> INITIAL
+INITIAL --> state1 : Player requests to start a new game
+state1 --> state2 : System shows title and board
+state2 --> IN_GAME : System allows Move Piece
+IN_GAME --> [*]
+@enduml
+
+@startuml movePiece_usecase
+state firstCondition <<choice>>
+state a as " "
+state secondCondition <<choice>>
+state b as " "
+state can_eat <<choice>>
+state winner <<choice>>
+state d as " "
+state e as " "
+state f as " "
+state g as " "
+
+[*] -down-> IN_GAME : Current turn player requests to move piece
+IN_GAME -down-> f : System requests origin
+f -down-> firstCondition : Current turn player selects origin
+firstCondition -down-> a
+firstCondition -down-> [*] : [error]
+note on link
+Oponent piece ||
+Empty square position ||
+Current turn player can't move blocked piece
+end note
+a -down-> g : System requests target
+g -down-> secondCondition : Current turn player selects target
+secondCondition -down-> [*] : [error]
+note on link
+Cell occupied ||
+Not in diagonal with the position of the piece ||
+2 or more pieces block the movement
+
+if PAWN
+Distance >2 ||
+movement is backwards
+end note
+secondCondition -down-> b
+b -down-> can_eat : System shows board with the piece moved, \n alternatively without oponent piece \n or with draught in target position
+can_eat -left-> firstCondition
+can_eat -down-> winner : [Piece can't eat again]
+winner -down-> d : [winner]
+note on link
+Oponent hasn't got pieces ||
+Oponent can't move any piece
+end note
+winner -down-> e
+d -down-> [*] : System allows to resume a new game
+e -down-> [*] : System allows to move a piece
+@enduml
+
+@startuml resume_usecase
+state RESUME
+state INITIAL
+state EXIT
+state requested as " "
+state allowed as " "
+
+[*] --> RESUME
+RESUME --> requested: Player requests to resume a new game
+requested --> allowed: System requests to continue
+allowed --> INITIAL: Player introduces yes
+allowed --> EXIT: Player introduces no
+INITIAL --> [*]
+EXIT --> [*]
+@enduml
+

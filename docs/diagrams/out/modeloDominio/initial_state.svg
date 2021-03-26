@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="963px" preserveAspectRatio="none" style="width:1252px;height:963px;" version="1.1" viewBox="0 0 1252 963" width="1252px" zoomAndPan="magnify"><defs><filter height="300%" id="fu7ptnp71lxk6" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="79" x="782" y="116"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="798" y="129.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="783" x2="860" y1="133.9688" y2="133.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="788" y="147.251">piece: NONE</text><rect fill="#808080" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="83" x="664" y="116"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="682" y="129.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="665" x2="746" y1="133.9688" y2="133.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="71" x="670" y="147.251">piece: BLACK</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="79" x="550" y="116"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="566" y="129.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="551" x2="628" y1="133.9688" y2="133.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="556" y="147.251">piece: NONE</text><rect fill="#808080" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="83" x="432" y="116"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="450" y="129.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="433" x2="514" y1="133.9688" y2="133.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="71" x="438" y="147.251">piece: BLACK</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="79" x="318" y="116"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="334" y="129.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="319" x2="396" y1="133.9688" y2="133.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="324" y="147.251">piece: NONE</text><rect fill="#808080" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="83" x="200" y="116"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="218" y="129.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="201" x2="282" y1="133.9688" y2="133.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="71" x="206" y="147.251">piece: BLACK</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="79" x="86" y="116"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="102" y="129.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="87" x2="164" y1="133.9688" y2="133.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="92" y="147.251">piece: NONE</text><rect fill="#808080" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="83" x="896" y="116"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="914" y="129.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="897" x2="978" y1="133.9688" y2="133.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="71" x="902" y="147.251">piece: BLACK</text><rect fill="#808080" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="83" x="782" y="214"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="800" y="227.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="783" x2="864" y1="231.9688" y2="231.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="71" x="788" y="245.251">piece: BLACK</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="79" x="668" y="214"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="684" y="227.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="669" x2="746" y1="231.9688" y2="231.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="674" y="245.251">piece: NONE</text><rect fill="#808080" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="83" x="550" y="214"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="568" y="227.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="551" x2="632" y1="231.9688" y2="231.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="71" x="556" y="245.251">piece: BLACK</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="79" x="436" y="214"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="452" y="227.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="437" x2="514" y1="231.9688" y2="231.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="442" y="245.251">piece: NONE</text><rect fill="#808080" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="83" x="318" y="214"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="336" y="227.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="319" x2="400" y1="231.9688" y2="231.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="71" x="324" y="245.251">piece: BLACK</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="79" x="204" y="214"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="220" y="227.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="205" x2="282" y1="231.9688" y2="231.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="210" y="245.251">piece: NONE</text><rect fill="#808080" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="83" x="86" y="214"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="104" y="227.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="87" x2="168" y1="231.9688" y2="231.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="71" x="92" y="245.251">piece: BLACK</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="79" x="900" y="214"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="916" y="227.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="901" x2="978" y1="231.9688" y2="231.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="906" y="245.251">piece: NONE</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="79" x="782" y="312"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="798" y="325.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="783" x2="860" y1="329.9688" y2="329.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="788" y="343.251">piece: NONE</text><rect fill="#808080" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="83" x="664" y="312"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="682" y="325.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="665" x2="746" y1="329.9688" y2="329.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="71" x="670" y="343.251">piece: BLACK</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="79" x="550" y="312"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="566" y="325.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="551" x2="628" y1="329.9688" y2="329.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="556" y="343.251">piece: NONE</text><rect fill="#808080" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="83" x="432" y="312"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="450" y="325.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="433" x2="514" y1="329.9688" y2="329.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="71" x="438" y="343.251">piece: BLACK</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="79" x="318" y="312"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="334" y="325.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="319" x2="396" y1="329.9688" y2="329.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="324" y="343.251">piece: NONE</text><rect fill="#808080" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="83" x="200" y="312"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="218" y="325.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="201" x2="282" y1="329.9688" y2="329.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="71" x="206" y="343.251">piece: BLACK</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="79" x="86" y="312"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="102" y="325.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="87" x2="164" y1="329.9688" y2="329.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="92" y="343.251">piece: NONE</text><rect fill="#808080" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="83" x="896" y="312"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="914" y="325.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="897" x2="978" y1="329.9688" y2="329.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="71" x="902" y="343.251">piece: BLACK</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="79" x="781" y="410"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="797" y="423.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="782" x2="859" y1="427.9688" y2="427.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="787" y="441.251">piece: NONE</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="79" x="666" y="410"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="682" y="423.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="667" x2="744" y1="427.9688" y2="427.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="672" y="441.251">piece: NONE</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="79" x="550" y="410"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="566" y="423.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="551" x2="628" y1="427.9688" y2="427.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="556" y="441.251">piece: NONE</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="79" x="434" y="410"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="450" y="423.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="435" x2="512" y1="427.9688" y2="427.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="440" y="441.251">piece: NONE</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="79" x="318" y="410"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="334" y="423.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="319" x2="396" y1="427.9688" y2="427.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="324" y="441.251">piece: NONE</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="79" x="203" y="410"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="219" y="423.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="204" x2="281" y1="427.9688" y2="427.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="209" y="441.251">piece: NONE</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="79" x="89" y="410"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="105" y="423.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="90" x2="167" y1="427.9688" y2="427.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="95" y="441.251">piece: NONE</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="79" x="897" y="410"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="913" y="423.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="898" x2="975" y1="427.9688" y2="427.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="903" y="441.251">piece: NONE</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="79" x="781" y="508"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="797" y="521.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="782" x2="859" y1="525.9688" y2="525.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="787" y="539.251">piece: NONE</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="79" x="666" y="508"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="682" y="521.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="667" x2="744" y1="525.9688" y2="525.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="672" y="539.251">piece: NONE</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="79" x="550" y="508"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="566" y="521.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="551" x2="628" y1="525.9688" y2="525.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="556" y="539.251">piece: NONE</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="79" x="434" y="508"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="450" y="521.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="435" x2="512" y1="525.9688" y2="525.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="440" y="539.251">piece: NONE</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="79" x="318" y="508"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="334" y="521.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="319" x2="396" y1="525.9688" y2="525.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="324" y="539.251">piece: NONE</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="79" x="203" y="508"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="219" y="521.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="204" x2="281" y1="525.9688" y2="525.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="209" y="539.251">piece: NONE</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="79" x="89" y="508"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="105" y="521.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="90" x2="167" y1="525.9688" y2="525.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="95" y="539.251">piece: NONE</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="79" x="897" y="508"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="913" y="521.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="898" x2="975" y1="525.9688" y2="525.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="903" y="539.251">piece: NONE</text><rect fill="#FFFFFF" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="82" x="781.5" y="606"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="799" y="619.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="782.5" x2="862.5" y1="623.9688" y2="623.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="70" x="787.5" y="637.251">piece: WHITE</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="79" x="667" y="606"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="683" y="619.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="668" x2="745" y1="623.9688" y2="623.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="673" y="637.251">piece: NONE</text><rect fill="#FFFFFF" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="82" x="549.5" y="606"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="567" y="619.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="550.5" x2="630.5" y1="623.9688" y2="623.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="70" x="555.5" y="637.251">piece: WHITE</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="79" x="435" y="606"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="451" y="619.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="436" x2="513" y1="623.9688" y2="623.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="441" y="637.251">piece: NONE</text><rect fill="#FFFFFF" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="82" x="317.5" y="606"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="335" y="619.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="318.5" x2="398.5" y1="623.9688" y2="623.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="70" x="323.5" y="637.251">piece: WHITE</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="79" x="203" y="606"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="219" y="619.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="204" x2="281" y1="623.9688" y2="623.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="209" y="637.251">piece: NONE</text><rect fill="#FFFFFF" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="82" x="85.5" y="606"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="103" y="619.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="86.5" x2="166.5" y1="623.9688" y2="623.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="70" x="91.5" y="637.251">piece: WHITE</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="79" x="899" y="606"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="915" y="619.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="900" x2="977" y1="623.9688" y2="623.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="905" y="637.251">piece: NONE</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="79" x="783" y="704"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="799" y="717.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="784" x2="861" y1="721.9688" y2="721.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="789" y="735.251">piece: NONE</text><rect fill="#FFFFFF" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="82" x="665.5" y="704"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="683" y="717.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="666.5" x2="746.5" y1="721.9688" y2="721.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="70" x="671.5" y="735.251">piece: WHITE</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="79" x="551" y="704"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="567" y="717.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="552" x2="629" y1="721.9688" y2="721.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="557" y="735.251">piece: NONE</text><rect fill="#FFFFFF" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="82" x="433.5" y="704"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="451" y="717.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="434.5" x2="514.5" y1="721.9688" y2="721.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="70" x="439.5" y="735.251">piece: WHITE</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="79" x="319" y="704"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="335" y="717.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="320" x2="397" y1="721.9688" y2="721.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="325" y="735.251">piece: NONE</text><rect fill="#FFFFFF" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="82" x="201.5" y="704"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="219" y="717.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="202.5" x2="282.5" y1="721.9688" y2="721.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="70" x="207.5" y="735.251">piece: WHITE</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="79" x="87" y="704"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="103" y="717.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="88" x2="165" y1="721.9688" y2="721.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="93" y="735.251">piece: NONE</text><rect fill="#FFFFFF" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="82" x="897.5" y="704"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="915" y="717.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="898.5" x2="978.5" y1="721.9688" y2="721.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="70" x="903.5" y="735.251">piece: WHITE</text><rect fill="#FFFFFF" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="82" x="550.5" y="802"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="568" y="815.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="551.5" x2="631.5" y1="819.9688" y2="819.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="70" x="556.5" y="833.251">piece: WHITE</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="79" x="436" y="802"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="452" y="815.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="437" x2="514" y1="819.9688" y2="819.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="442" y="833.251">piece: NONE</text><rect fill="#FFFFFF" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="82" x="318.5" y="802"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="336" y="815.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="319.5" x2="399.5" y1="819.9688" y2="819.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="70" x="324.5" y="833.251">piece: WHITE</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="79" x="204" y="802"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="220" y="815.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="205" x2="282" y1="819.9688" y2="819.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="210" y="833.251">piece: NONE</text><rect fill="#FFFFFF" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="82" x="86.5" y="802"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="104" y="815.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="87.5" x2="167.5" y1="819.9688" y2="819.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="70" x="92.5" y="833.251">piece: WHITE</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="79" x="668" y="802"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="684" y="815.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="669" x2="746" y1="819.9688" y2="819.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="674" y="833.251">piece: NONE</text><rect fill="#FFFFFF" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="82" x="782.5" y="802"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="800" y="815.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="783.5" x2="863.5" y1="819.9688" y2="819.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="70" x="788.5" y="833.251">piece: WHITE</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="37.6094" style="stroke:#A80036;stroke-width:1.5;" width="79" x="900" y="802"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="47" x="916" y="815.1387">:Square</text><line style="stroke:#A80036;stroke-width:1.5;" x1="901" x2="978" y1="819.9688" y2="819.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="906" y="833.251">piece: NONE</text><path d="M6,220.5 L6,245.6328 L51,245.6328 L51,230.5 L41,220.5 L6,220.5 " fill="#FBFB77" filter="url(#fu7ptnp71lxk6)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M41,220.5 L41,230.5 L51,230.5 L41,220.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="24" x="12" y="237.5669">8x8</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="84" x="787.5" y="7"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="70" x="794.5" y="20.1387">:Coordinate</text><line style="stroke:#A80036;stroke-width:1.5;" x1="788.5" x2="870.5" y1="24.9688" y2="24.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="40" x="793.5" y="38.251">row = 1</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="61" x="793.5" y="49.8916">column = 7</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="84" x="668.5" y="7"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="70" x="675.5" y="20.1387">:Coordinate</text><line style="stroke:#A80036;stroke-width:1.5;" x1="669.5" x2="751.5" y1="24.9688" y2="24.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="40" x="674.5" y="38.251">row = 1</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="62" x="674.5" y="49.8916">column = 6</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="84" x="549.5" y="7"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="70" x="556.5" y="20.1387">:Coordinate</text><line style="stroke:#A80036;stroke-width:1.5;" x1="550.5" x2="632.5" y1="24.9688" y2="24.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="40" x="555.5" y="38.251">row = 1</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="61" x="555.5" y="49.8916">column = 5</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="84" x="430.5" y="7"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="70" x="437.5" y="20.1387">:Coordinate</text><line style="stroke:#A80036;stroke-width:1.5;" x1="431.5" x2="513.5" y1="24.9688" y2="24.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="40" x="436.5" y="38.251">row = 1</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="62" x="436.5" y="49.8916">column = 4</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="84" x="311.5" y="7"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="70" x="318.5" y="20.1387">:Coordinate</text><line style="stroke:#A80036;stroke-width:1.5;" x1="312.5" x2="394.5" y1="24.9688" y2="24.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="40" x="317.5" y="38.251">row = 1</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="62" x="317.5" y="49.8916">column = 3</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="84" x="192.5" y="7"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="70" x="199.5" y="20.1387">:Coordinate</text><line style="stroke:#A80036;stroke-width:1.5;" x1="193.5" x2="275.5" y1="24.9688" y2="24.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="40" x="198.5" y="38.251">row = 1</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="61" x="198.5" y="49.8916">column = 2</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="84" x="73.5" y="7"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="70" x="80.5" y="20.1387">:Coordinate</text><line style="stroke:#A80036;stroke-width:1.5;" x1="74.5" x2="156.5" y1="24.9688" y2="24.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="40" x="79.5" y="38.251">row = 1</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="62" x="79.5" y="49.8916">column = 1</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="84" x="906.5" y="7"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="70" x="913.5" y="20.1387">:Coordinate</text><line style="stroke:#A80036;stroke-width:1.5;" x1="907.5" x2="989.5" y1="24.9688" y2="24.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="40" x="912.5" y="38.251">row = 1</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="62" x="912.5" y="49.8916">column = 8</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="84" x="551.5" y="900"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="70" x="558.5" y="913.1387">:Coordinate</text><line style="stroke:#A80036;stroke-width:1.5;" x1="552.5" x2="634.5" y1="917.9688" y2="917.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="40" x="557.5" y="931.251">row = 8</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="61" x="557.5" y="942.8916">column = 7</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="84" x="432.5" y="900"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="70" x="439.5" y="913.1387">:Coordinate</text><line style="stroke:#A80036;stroke-width:1.5;" x1="433.5" x2="515.5" y1="917.9688" y2="917.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="40" x="438.5" y="931.251">row = 8</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="62" x="438.5" y="942.8916">column = 6</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="84" x="313.5" y="900"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="70" x="320.5" y="913.1387">:Coordinate</text><line style="stroke:#A80036;stroke-width:1.5;" x1="314.5" x2="396.5" y1="917.9688" y2="917.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="40" x="319.5" y="931.251">row = 8</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="61" x="319.5" y="942.8916">column = 5</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="84" x="194.5" y="900"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="70" x="201.5" y="913.1387">:Coordinate</text><line style="stroke:#A80036;stroke-width:1.5;" x1="195.5" x2="277.5" y1="917.9688" y2="917.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="40" x="200.5" y="931.251">row = 8</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="62" x="200.5" y="942.8916">column = 4</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="84" x="75.5" y="900"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="70" x="82.5" y="913.1387">:Coordinate</text><line style="stroke:#A80036;stroke-width:1.5;" x1="76.5" x2="158.5" y1="917.9688" y2="917.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="40" x="81.5" y="931.251">row = 8</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="62" x="81.5" y="942.8916">column = 3</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="84" x="670.5" y="900"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="70" x="677.5" y="913.1387">:Coordinate</text><line style="stroke:#A80036;stroke-width:1.5;" x1="671.5" x2="753.5" y1="917.9688" y2="917.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="40" x="676.5" y="931.251">row = 8</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="61" x="676.5" y="942.8916">column = 2</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="84" x="789.5" y="900"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="70" x="796.5" y="913.1387">:Coordinate</text><line style="stroke:#A80036;stroke-width:1.5;" x1="790.5" x2="872.5" y1="917.9688" y2="917.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="40" x="795.5" y="931.251">row = 8</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="62" x="795.5" y="942.8916">column = 1</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="84" x="908.5" y="900"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="70" x="915.5" y="913.1387">:Coordinate</text><line style="stroke:#A80036;stroke-width:1.5;" x1="909.5" x2="991.5" y1="917.9688" y2="917.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="40" x="914.5" y="931.251">row = 8</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="62" x="914.5" y="942.8916">column = 8</text><rect fill="#FEFECE" filter="url(#fu7ptnp71lxk6)" height="33.9688" style="stroke:#A80036;stroke-width:1.5;" width="54" x="1050.5" y="14.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="40" x="1057.5" y="27.6387">:Board</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1051.5" x2="1103.5" y1="32.4688" y2="32.4688"/><!--MD5=[9f00f453158db019cc737f926bf9b344]
+link Board to Square11--><!--MD5=[62473c117df2103f6da36c87074fdb42]
+link Board to Square18--><path codeLine="276" d="M1055.32,48.583 C1031.31,65.987 992.935,93.81 966.542,112.944 " fill="none" id="Board-to-Square18" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="962.413,115.938,972.0477,113.8952,966.4615,113.0038,967.3529,107.4176,962.413,115.938" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[2a48127550db072d047e28db107daefc]
+link Board to Square21--><!--MD5=[51af290fc9633ee70408c909b73082db]
+link Board to Square28--><!--MD5=[d3cc89143c356a0c4afee39c5134ba5c]
+link Board to Square81--><!--MD5=[2e042e02b030d6acd5aac6108c185531]
+link Board to Square88--><path codeLine="280" d="M1104.62,38.871 C1132.47,46.776 1175.21,62.909 1200.5,92 C1243.38,141.324 1245.5,166.642 1245.5,232 C1245.5,232 1245.5,232 1245.5,626 C1245.5,681.299 1241.13,704.486 1200.5,742 C1140.13,797.746 1041.47,813.752 984.312,818.282 " fill="none" id="Board-to-Square88" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="979.253,818.662,988.5271,821.9772,984.239,818.2878,987.9284,813.9997,979.253,818.662" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[9fe005758af56c37628406158fffa4a8]
+link Coordinate11 to Square11--><path codeLine="282" d="M826.598,69.315 C825.728,80.357 823.8652,104.0082 823.8652,104.0082 " fill="none" id="Coordinate11-Square11" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="822.921,115.971,827.3807,110.3043,823.8652,104.0082,819.4055,109.6749,822.921,115.971" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="827.645,56.041,822.9502,64.6989,827.2521,61.0255,830.9255,65.3275,827.645,56.041" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="827.2521" x2="826.623" y1="61.0255" y2="69.0015"/><!--MD5=[5d57585f8742f486a286790e77a7c71e]
+link Coordinate12 to Square12--><path codeLine="283" d="M708.686,69.315 C708.142,80.357 706.9775,103.9855 706.9775,103.9855 " fill="none" id="Coordinate12-Square12" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="706.388,115.971,710.6779,110.1747,706.9775,103.9855,702.6876,109.7818,706.388,115.971" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="709.34,56.041,704.9027,64.8337,709.0944,61.035,712.8931,65.2266,709.34,56.041" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="709.0944" x2="708.7005" y1="61.035" y2="69.0255"/><!--MD5=[5ba4b523afd60446c9a67c4d8b446ed4]
+link Coordinate13 to Square13--><path codeLine="284" d="M590.775,69.315 C590.559,80.233 590.091,103.9733 590.091,103.9733 " fill="none" id="Coordinate13-Square13" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="589.855,115.971,593.9722,110.0508,590.091,103.9733,585.9738,109.8935,589.855,115.971" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="591.036,56.041,586.8597,64.9606,590.9376,61.04,594.8582,65.1179,591.036,56.041" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="590.9376" x2="590.78" y1="61.04" y2="69.0385"/><!--MD5=[4a44985ed36ba72f821b9983842ee0aa]
+link Coordinate14 to Square14--><path codeLine="285" d="M472.863,69.315 C472.97,80.233 473.2046,103.9716 473.2046,103.9716 " fill="none" id="Coordinate14-Square14" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="473.322,115.971,477.2631,109.9322,473.2046,103.9716,469.2635,110.0104,473.322,115.971" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="472.732,56.041,468.8202,65.0797,472.7809,61.0408,476.8198,65.0015,472.732,56.041" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="472.7809" x2="472.86" y1="61.0408" y2="69.0405"/><!--MD5=[0dca94598cde1def9af15dc32160d9cd]
+link Coordinate15 to Square15--><path codeLine="286" d="M354.951,69.315 C355.381,80.233 356.3169,103.9803 356.3169,103.9803 " fill="none" id="Coordinate15-Square15" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="356.789,115.971,360.5499,109.8183,356.3169,103.9803,352.5561,110.133,356.789,115.971" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="354.428,56.041,350.7852,65.1914,354.6247,61.0371,358.779,64.8767,354.428,56.041" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="354.6247" x2="354.9395" y1="61.0371" y2="69.031"/><!--MD5=[52a1e9fbdcb903824e21d60fbe777721]
+link Coordinate16 to Square16--><path codeLine="287" d="M237.039,69.315 C237.801,80.357 239.4315,103.9994 239.4315,103.9994 " fill="none" id="Coordinate16-Square16" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="240.257,115.971,243.8348,109.71,239.4315,103.9994,235.8537,110.2604,240.257,115.971" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="236.124,56.041,232.7536,65.2952,236.4685,61.0291,240.7346,64.744,236.124,56.041" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="236.4685" x2="237.018" y1="61.0291" y2="69.0105"/><!--MD5=[1df00c9eb1d96564a555f59af642d939]
+link Coordinate17 to Square17--><path codeLine="288" d="M119.127,69.315 C120.215,80.357 122.5464,104.0289 122.5464,104.0289 " fill="none" id="Coordinate17-Square17" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="123.724,115.971,127.1159,109.6074,122.5464,104.0289,119.1545,110.3925,123.724,115.971" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="117.819,56.041,114.7215,65.3901,118.3097,61.0169,122.6829,64.605,117.819,56.041" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="118.3097" x2="119.094" y1="61.0169" y2="68.9785"/><!--MD5=[da967cbd7fd478b17526f2b59e1086b1]
+link Coordinate18 to Square18--><path codeLine="289" d="M944.51,69.315 C943.313,80.357 940.7476,104.0409 940.7476,104.0409 " fill="none" id="Coordinate18-Square18" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="939.454,115.971,944.0775,110.4372,940.7476,104.0409,936.1241,109.5748,939.454,115.971" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="945.949,56.041,941.0021,64.5573,945.41,61.0119,948.9555,65.4198,945.949,56.041" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="945.41" x2="944.5475" y1="61.0119" y2="68.9655"/><!--MD5=[2c445b46de657af76b3091ed58e91bff]
+link Square81 to Coordinate81--><path codeLine="291" d="M592.0944,852.1437 C592.0944,852.1437 592.56,875.7776 592.774,886.6582 " fill="none" id="Square81-Coordinate81" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="593.033,899.7788,596.8549,890.7017,592.9345,894.7798,588.8564,890.8594,593.033,899.7788" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="592.9345" x2="592.776" y1="894.7798" y2="886.7814"/><polygon fill="#A80036" points="591.858,840.146,587.977,846.2237,592.0944,852.1437,595.9754,846.066,591.858,840.146" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[51472806700c78efbe86287091e74581]
+link Square82 to Coordinate82--><path codeLine="292" d="M475.2027,852.1454 C475.2027,852.1454 474.97,875.7776 474.863,886.6582 " fill="none" id="Square82-Coordinate82" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="474.734,899.7788,478.8225,890.8187,474.7833,894.779,470.8229,890.7398,474.734,899.7788" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="474.7833" x2="474.862" y1="894.779" y2="886.7795"/><polygon fill="#A80036" points="475.321,840.146,471.2621,846.1063,475.2027,852.1454,479.2617,846.1851,475.321,840.146" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[ed97341286b17b83a82f3006e14fd880]
+link Square83 to Coordinate83--><path codeLine="293" d="M358.3124,852.1367 C358.3124,852.1367 357.381,875.7776 356.952,886.6582 " fill="none" id="Square83-Coordinate83" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="356.435,899.7788,360.7864,890.9433,356.6319,894.7827,352.7926,890.6282,356.435,899.7788" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="356.6319" x2="356.9465" y1="894.7827" y2="886.7889"/><polygon fill="#A80036" points="358.785,840.146,354.5518,845.9838,358.3124,852.1367,362.5456,846.2989,358.785,840.146" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[399e244b907d6721c3a19006de7bbf0a]
+link Square84 to Coordinate84--><path codeLine="294" d="M241.4233,852.1176 C241.4233,852.1176 239.791,875.7776 239.041,886.6582 " fill="none" id="Square84-Coordinate84" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="238.136,899.7788,242.7457,891.0753,238.48,894.7906,234.7647,890.5249,238.136,899.7788" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="238.48" x2="239.0305" y1="894.7906" y2="886.8096"/><polygon fill="#A80036" points="242.249,840.146,237.8456,845.8566,241.4233,852.1176,245.8267,846.407,242.249,840.146" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[8c9ad63853ede1babd4c7796f8d05674]
+link Square85 to Coordinate85--><path codeLine="295" d="M124.5355,852.0882 C124.5355,852.0882 122.202,875.7776 121.13,886.6582 " fill="none" id="Square85-Coordinate85" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="119.837,899.7788,124.7002,891.2144,120.3273,894.8029,116.7388,890.4299,119.837,899.7788" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="120.3273" x2="121.112" y1="894.8029" y2="886.8415"/><polygon fill="#A80036" points="125.712,840.146,121.143,845.7249,124.5355,852.0882,129.1045,846.5093,125.712,840.146" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[dde9a3630cd929a779e0021ef779969c]
+link Square86 to Coordinate86--><path codeLine="296" d="M708.9845,852.1315 C708.9845,852.1315 710.149,875.7776 710.685,886.6582 " fill="none" id="Square86-Coordinate86" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="711.331,899.7788,714.8833,890.5929,711.085,894.7849,706.893,890.9865,711.331,899.7788" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="711.085" x2="710.6915" y1="894.7849" y2="886.7946"/><polygon fill="#A80036" points="708.394,840.146,704.6941,846.3356,708.9845,852.1315,712.6844,845.9419,708.394,840.146" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[ad98991ba33e49ad9c23a9075d0c34cc]
+link Square87 to Coordinate87--><path codeLine="297" d="M825.873,852.1089 C825.873,852.1089 827.739,875.7776 828.596,886.6582 " fill="none" id="Square87-Coordinate87" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="829.63,899.7788,832.9104,890.4923,829.2371,894.7943,824.9351,891.121,829.63,899.7788" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="829.2371" x2="828.609" y1="894.7943" y2="886.8191"/><polygon fill="#A80036" points="824.93,840.146,821.4139,846.4418,825.873,852.1089,829.3891,845.8131,824.93,840.146" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[b68519667decbaee3b8cce10b1e99ded]
+link Square88 to Coordinate88--><path codeLine="298" d="M942.7601,852.0761 C942.7601,852.0761 945.328,875.7776 946.507,886.6582 " fill="none" id="Square88-Coordinate88" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="947.929,899.7788,950.936,890.4002,947.3903,894.8079,942.9826,891.2622,947.929,899.7788" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="947.3903" x2="946.5285" y1="894.8079" y2="886.8546"/><polygon fill="#A80036" points="941.467,840.146,938.1368,846.5421,942.7601,852.0761,946.0903,845.68,941.467,840.146" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[13a5bfcd547bcca90bd72ebe5fcbc39e]
+link Square11 to Square12--><!--MD5=[bc76116199aafd8295781c7dcab3176f]
+link Square12 to Square13--><!--MD5=[f414ae96c3ac41d2c13d32fb8f307d61]
+link Square13 to Square14--><!--MD5=[131fdd10d6cbf956e26520bdc676f06e]
+link Square14 to Square15--><!--MD5=[79b0c435bccafa937590d7edb9b04a39]
+link Square15 to Square16--><!--MD5=[4d7d6cb7b3b507d806d008780cac025d]
+link Square16 to Square17--><!--MD5=[0e3ade0dc603c4b6c29dab3e55b6dfb8]
+link Square17 to Square18--><!--MD5=[c89ffb18fbb7b46681bd5913015ae5e3]
+link Square21 to Square22--><!--MD5=[e010c8769b92a1a5952e305a724ea8e4]
+link Square22 to Square23--><!--MD5=[9dc35ebcb1fe16ccde4754942ac43695]
+link Square23 to Square24--><!--MD5=[9591e6cf599d538370f493be08a94ad5]
+link Square24 to Square25--><!--MD5=[48c86e888eb208f024472dd146d30c24]
+link Square25 to Square26--><!--MD5=[0777edfdced529c8f33a97bdc1424199]
+link Square26 to Square27--><!--MD5=[9f86679b8d53b7b260c29c01d4bc2bc8]
+link Square27 to Square28--><!--MD5=[f50abd7b4c3d728b1750fcedc3b0f127]
+link Square31 to Square32--><!--MD5=[602970f58178e45676872601d2c7aa36]
+link Square32 to Square33--><!--MD5=[909cec1513e024b7fd6690135a2c6e37]
+link Square33 to Square34--><!--MD5=[3b173a19c5d81b99a7ea2467d3157e0d]
+link Square34 to Square35--><!--MD5=[0a30d9f17a05d557d289ef82c9776175]
+link Square35 to Square36--><!--MD5=[0cf3d3903ba1f4e8f1c005594131f240]
+link Square36 to Square37--><!--MD5=[2c09c2e5bd2d2760669d754721d53c0b]
+link Square37 to Square38--><!--MD5=[09e9929c2db9c3fd7037e5307c4a08cf]
+link Square41 to Square42--><!--MD5=[3d92523eddf70f2aa31f76ae81b05ac6]
+link Square42 to Square43--><!--MD5=[cbc38958ef631d8e74850c15eeb0cf07]
+link Square43 to Square44--><!--MD5=[7022c12974dec7a798bd4c001e1794b4]
+link Square44 to Square45--><!--MD5=[60b4dba9c0d14baa65b38d286edc9ab0]
+link Square45 to Square46--><!--MD5=[d6219f88e46c1e67ed5a5ce31bff0e3d]
+link Square46 to Square47--><!--MD5=[f5e218ad1c785a477c6e0528968f5cfe]
+link Square47 to Square48--><!--MD5=[9b337277a1430df8c6baa480799f4df2]
+link Square51 to Square52--><!--MD5=[0272571fae6f24897b01616a4e29e74e]
+link Square52 to Square53--><!--MD5=[07b866edca8ffe679bdcf5dac2922e28]
+link Square53 to Square54--><!--MD5=[21c7ecbc5c9501bab7ad5f3a50e44651]
+link Square54 to Square55--><!--MD5=[5ba784e844393e8d986f486a1fd0f429]
+link Square55 to Square56--><!--MD5=[4ddc9c132e6e1b60dfb068370368854f]
+link Square56 to Square57--><!--MD5=[d92f789f5cf4d53bbd841ae7337821e9]
+link Square57 to Square58--><!--MD5=[314258048751437dcb9528ef0f8d7f6d]
+link Square61 to Square62--><!--MD5=[519384041d5ebe3dd9d3339cdf845667]
+link Square62 to Square63--><!--MD5=[494ee1abd2150841df97818d80022f78]
+link Square63 to Square64--><!--MD5=[5d89c7aec01730816158ffa2d29533ad]
+link Square64 to Square65--><!--MD5=[aa01ee0b3fa3d279aae4acca251f65f7]
+link Square65 to Square66--><!--MD5=[8531b120aa3d29155634f5088d8d82a2]
+link Square66 to Square67--><!--MD5=[a0d7703b9cb22171c6ca5ba18257c4cc]
+link Square67 to Square68--><!--MD5=[9cad34a74699540c3bf1c2fd590cceb6]
+link Square71 to Square72--><!--MD5=[2ffc8224b396c9fe90605bc7682ad594]
+link Square72 to Square73--><!--MD5=[da6fcff123c7e5a27210b8f7d2a27e2f]
+link Square73 to Square74--><!--MD5=[6efd29bc95823b6d6710094d0baf2900]
+link Square74 to Square75--><!--MD5=[6b73bd234a79502cd6e94951788fa467]
+link Square75 to Square76--><!--MD5=[91c45a018cd2bb2d17258b8cc7e80c7b]
+link Square76 to Square77--><!--MD5=[688549cac6ac173c4335211b13e0e5dc]
+link Square77 to Square78--><!--MD5=[0010e334fddce694d2cba8215d99a8e2]
+link Square81 to Square82--><!--MD5=[4041fce4d2cf142fe793828cea3545d2]
+link Square82 to Square83--><!--MD5=[cfe502f50fe1019538c7a0f9b8f02830]
+link Square83 to Square84--><!--MD5=[6c8a7f3eb4eaf20af28129a0ae0cb638]
+link Square84 to Square85--><!--MD5=[a79784e2384b2a9db8339b110a966c0a]
+link Square85 to Square86--><!--MD5=[8ba98402b4cb640f97785409e0e6cfe4]
+link Square86 to Square87--><!--MD5=[a073275dd11bef81f20af3733c408a0f]
+link Square87 to Square88--><!--MD5=[0f6bfcf04e14b42cde8cbfcc74aaa622]
+link Square11 to Square21--><!--MD5=[25839071d6f91f37be67e06b1ae5341a]
+link Square12 to Square22--><!--MD5=[f622953a480c4fc89b837fd30211fa77]
+link Square13 to Square23--><!--MD5=[8ad45da73913eb84f62ad660511468bb]
+link Square14 to Square24--><!--MD5=[45a12a0e3cca31c00d29f8eff43d05ef]
+link Square15 to Square25--><!--MD5=[779b498cf6655cbe20648ba279cc6b5b]
+link Square16 to Square26--><!--MD5=[66241518d8f8a42367887046ec80391d]
+link Square17 to Square27--><!--MD5=[da37bc0dc25d4353a66a0782411224df]
+link Square18 to Square28--><!--MD5=[a91b861c62fa236fffcb0f2237862284]
+link Square21 to Square31--><!--MD5=[72223308d08a89680f2dbb886c02d26d]
+link Square22 to Square32--><!--MD5=[090cfe2b176d307a1968440006917c83]
+link Square23 to Square33--><!--MD5=[e4950f10a4d91832d3484763cb2b9a30]
+link Square24 to Square34--><!--MD5=[64cabbd86e7c341d2a533f00d9195214]
+link Square25 to Square35--><!--MD5=[0835859866a2dc1eb11cdc2ad945e782]
+link Square26 to Square36--><!--MD5=[f3873a908c695b1de12e3da70f6b2cac]
+link Square27 to Square37--><!--MD5=[8808b763add427b496d8cbcbe38cdec9]
+link Square28 to Square38--><!--MD5=[c1eb9005deaf3dcbfb8f203ef3c6c95c]
+link Square31 to Square41--><!--MD5=[1efaa4aa474b07f5ff8c8150f5a40912]
+link Square32 to Square42--><!--MD5=[4afeb5cee5b18fdd804d8c3bea7f51e1]
+link Square33 to Square43--><!--MD5=[73c52040ba6dca7156faebdc01ca822f]
+link Square34 to Square44--><!--MD5=[4cd8a668067541d4b20ac6a66cf691bb]
+link Square35 to Square45--><!--MD5=[78d9af60dfd753f26be3da7f6f594ebd]
+link Square36 to Square46--><!--MD5=[8d3fb726a2cd220194a797dae8c67181]
+link Square37 to Square47--><!--MD5=[7d1f2feef40dc2a53500803ec432e864]
+link Square38 to Square48--><!--MD5=[a0c9ce61ecef6cc80555778689c265ed]
+link Square41 to Square51--><!--MD5=[8301e199b69bfafe1377d9d1d34da01a]
+link Square42 to Square52--><!--MD5=[98e67cca7b8763fcf308770d7bc96ee5]
+link Square43 to Square53--><!--MD5=[7bf6b9187f4fdbb90ad49bec7eda2bfd]
+link Square44 to Square54--><!--MD5=[f5150ae947ebbbcd4489f3c0f1da18b8]
+link Square45 to Square55--><!--MD5=[38f883e725909b780e9cf017480b4aa8]
+link Square46 to Square56--><!--MD5=[76ae871a371f4f9092ba2bf06b251f04]
+link Square47 to Square57--><!--MD5=[2218c540ea2452023cb42b446171b80f]
+link Square48 to Square58--><!--MD5=[f6f6949325cf7926ff19b76661d4ac5f]
+link Square51 to Square61--><!--MD5=[27971b028acb532217681099aaff08e0]
+link Square52 to Square62--><!--MD5=[8738a7522213ff2b3c7626b9c448bd34]
+link Square53 to Square63--><!--MD5=[3fbe366cfc82ae3af5c31fe684eb9cb4]
+link Square54 to Square64--><!--MD5=[5125380cb34d3e2732ee3417044ff80d]
+link Square55 to Square65--><!--MD5=[02d7d3906b29b9a596d48053d713daed]
+link Square56 to Square66--><!--MD5=[fdb8618f8eab16ee5f53ddefa94ca27c]
+link Square57 to Square67--><!--MD5=[d33e9c6cd77576faf0f11687ed077316]
+link Square58 to Square68--><!--MD5=[5015776a5adaa90ebe0d8ad6ff2b3dec]
+link Square61 to Square71--><!--MD5=[d60810034cfb327d182b5977cb97f69c]
+link Square62 to Square72--><!--MD5=[f74341f5f7a1661c395cdaa010eb354a]
+link Square63 to Square73--><!--MD5=[4873a1603faa2da1a549a3db859354f8]
+link Square64 to Square74--><!--MD5=[865dcd5074e07c85a655239f077c5403]
+link Square65 to Square75--><!--MD5=[6f0f88f6c9696d7c358f301a722c76b1]
+link Square66 to Square76--><!--MD5=[2f5ac83cce05eb6430f862f9d3ee9054]
+link Square67 to Square77--><!--MD5=[07100e42b83707213cfac3613b612499]
+link Square68 to Square78--><!--MD5=[3f03d609d13ff85b92f1a014d2ff4d79]
+link Square71 to Square81--><!--MD5=[208a05dd39fe433483955dbc899f9776]
+link Square72 to Square82--><!--MD5=[78261ae0cb900bbfeb74737779226856]
+link Square73 to Square83--><!--MD5=[4ba38874c4bcc2bd1987b5578b616dbf]
+link Square74 to Square84--><!--MD5=[5997b0d4c54fe09a591ab0457ae41666]
+link Square75 to Square85--><!--MD5=[2609bf15330c9a986c3261341557bd73]
+link Square77 to Square87--><!--MD5=[9d959c259e197c6c47140d9c048eaaef]
+link Square78 to Square88--><!--MD5=[cbacef9efff25af3b17b8696087351c9]
+link Square11 to dimensionNote--><!--MD5=[d923f976ff392f5be98f79192a10dc7b]
+@startuml
+together {
+object ":Square" as Square11{
+    piece: NONE
+}
+object ":Square" as Square12 #grey{
+    piece: BLACK
+}
+object ":Square" as Square13{
+    piece: NONE
+}
+object ":Square" as Square14 #grey{
+    piece: BLACK
+}
+object ":Square" as Square15{
+    piece: NONE
+}
+object ":Square" as Square16 #grey{
+    piece: BLACK
+}
+object ":Square" as Square17{
+    piece: NONE
+}
+object ":Square" as Square18 #grey{
+    piece: BLACK
+}
+
+object ":Square" as Square21 #grey{
+    piece: BLACK
+}
+object ":Square" as Square22{
+    piece: NONE
+}
+object ":Square" as Square23 #grey{
+    piece: BLACK
+}
+object ":Square" as Square24{
+    piece: NONE
+}
+object ":Square" as Square25 #grey{
+    piece: BLACK
+}
+object ":Square" as Square26{
+    piece: NONE
+}
+object ":Square" as Square27 #grey{
+    piece: BLACK
+}
+object ":Square" as Square28{
+    piece: NONE
+}
+
+object ":Square" as Square31{
+    piece: NONE
+}
+object ":Square" as Square32 #grey{
+    piece: BLACK
+}
+object ":Square" as Square33{
+    piece: NONE
+}
+object ":Square" as Square34 #grey{
+    piece: BLACK
+}
+object ":Square" as Square35{
+    piece: NONE
+}
+object ":Square" as Square36 #grey{
+    piece: BLACK
+}
+object ":Square" as Square37{
+    piece: NONE
+}
+object ":Square" as Square38 #grey{
+    piece: BLACK
+}
+
+object ":Square" as Square41{
+    piece: NONE
+}
+object ":Square" as Square42{
+    piece: NONE
+}
+object ":Square" as Square43{
+    piece: NONE
+}
+object ":Square" as Square44{
+    piece: NONE
+}
+object ":Square" as Square45{
+    piece: NONE
+}
+object ":Square" as Square46{
+    piece: NONE
+}
+object ":Square" as Square47{
+    piece: NONE
+}
+object ":Square" as Square48{
+    piece: NONE
+}
+
+object ":Square" as Square51{
+    piece: NONE
+}
+object ":Square" as Square52{
+    piece: NONE
+}
+object ":Square" as Square53{
+    piece: NONE
+}
+object ":Square" as Square54{
+    piece: NONE
+}
+object ":Square" as Square55{
+    piece: NONE
+}
+object ":Square" as Square56{
+    piece: NONE
+}
+object ":Square" as Square57{
+    piece: NONE
+}
+object ":Square" as Square58{
+    piece: NONE
+}
+
+object ":Square" as Square61 #white{
+    piece: WHITE
+}
+object ":Square" as Square62{
+    piece: NONE
+}
+object ":Square" as Square63 #white{
+    piece: WHITE
+}
+object ":Square" as Square64{
+    piece: NONE
+}
+object ":Square" as Square65 #white{
+    piece: WHITE
+}
+object ":Square" as Square66{
+    piece: NONE
+}
+object ":Square" as Square67 #white{
+    piece: WHITE
+}
+object ":Square" as Square68 {
+    piece: NONE
+}
+
+object ":Square" as Square71{
+    piece: NONE
+}
+object ":Square" as Square72 #white{
+    piece: WHITE
+}
+object ":Square" as Square73{
+    piece: NONE
+}
+object ":Square" as Square74 #white{
+    piece: WHITE
+}
+object ":Square" as Square75{
+    piece: NONE
+}
+object ":Square" as Square76 #white{
+    piece: WHITE
+}
+object ":Square" as Square77{
+    piece: NONE
+}
+object ":Square" as Square78 #white{
+    piece: WHITE
+}
+
+
+object ":Square" as Square81 #white{
+    piece: WHITE
+}
+object ":Square" as Square82{
+    piece: NONE
+}
+object ":Square" as Square83 #white{
+    piece: WHITE
+}
+object ":Square" as Square84{
+    piece: NONE
+}
+object ":Square" as Square85 #white{
+    piece: WHITE
+}
+object ":Square" as Square86{
+    piece: NONE
+}
+object ":Square" as Square87 #white{
+    piece: WHITE
+}
+object ":Square" as Square88{
+    piece: NONE
+}
+
+}
+
+note "8x8" as dimensionNote
+
+object ":Coordinate" as Coordinate11 {
+row = 1
+column = 7
+}
+object ":Coordinate" as Coordinate12 {
+row = 1
+column = 6
+}
+object ":Coordinate" as Coordinate13 {
+row = 1
+column = 5
+}
+object ":Coordinate" as Coordinate14 {
+row = 1
+column = 4
+}
+object ":Coordinate" as Coordinate15 {
+row = 1
+column = 3
+}
+object ":Coordinate" as Coordinate16 {
+row = 1
+column = 2
+}
+object ":Coordinate" as Coordinate17 {
+row = 1
+column = 1
+}
+object ":Coordinate" as Coordinate18 {
+row = 1
+column = 8
+}
+
+object ":Coordinate" as Coordinate81 {
+row = 8
+column = 7
+}
+object ":Coordinate" as Coordinate82 {
+row = 8
+column = 6
+}
+object ":Coordinate" as Coordinate83 {
+row = 8
+column = 5
+}
+object ":Coordinate" as Coordinate84 {
+row = 8
+column = 4
+}
+object ":Coordinate" as Coordinate85 {
+row = 8
+column = 3
+}
+object ":Coordinate" as Coordinate86 {
+row = 8
+column = 2
+}
+object ":Coordinate" as Coordinate87 {
+row = 8
+column = 1
+}
+object ":Coordinate" as Coordinate88 {
+row = 8
+column = 8
+}
+
+object ":Board" as Board
+
+Board -[hidden]->  Square11
+Board - ->  Square18
+Board -[hidden]->  Square21
+Board -[hidden]->  Square28
+Board -[hidden]->  Square81
+Board - ->  Square88
+
+Square11 *-up-> Coordinate11
+Square12 *-up-> Coordinate12
+Square13 *-up-> Coordinate13
+Square14 *-up-> Coordinate14
+Square15 *-up-> Coordinate15
+Square16 *-up-> Coordinate16
+Square17 *-up-> Coordinate17
+Square18 *-up-> Coordinate18
+
+Square81 *-down-> Coordinate81
+Square82 *-down-> Coordinate82
+Square83 *-down-> Coordinate83
+Square84 *-down-> Coordinate84
+Square85 *-down-> Coordinate85
+Square86 *-down-> Coordinate86
+Square87 *-down-> Coordinate87
+Square88 *-down-> Coordinate88
+
+Square11 -[hidden]right-> Square12
+Square12 -[hidden]right-> Square13
+Square13 -[hidden]right-> Square14
+Square14 -[hidden]right-> Square15
+Square15 -[hidden]right-> Square16
+Square16 -[hidden]right-> Square17
+Square17 -[hidden]right-> Square18
+
+Square21 -[hidden]right-> Square22
+Square22 -[hidden]right-> Square23
+Square23 -[hidden]right-> Square24
+Square24 -[hidden]right-> Square25
+Square25 -[hidden]right-> Square26
+Square26 -[hidden]right-> Square27
+Square27 -[hidden]right-> Square28
+
+Square31 -[hidden]right-> Square32
+Square32 -[hidden]right-> Square33
+Square33 -[hidden]right-> Square34
+Square34 -[hidden]right-> Square35
+Square35 -[hidden]right-> Square36
+Square36 -[hidden]right-> Square37
+Square37 -[hidden]right-> Square38
+
+Square41 -[hidden]right-> Square42
+Square42 -[hidden]right-> Square43
+Square43 -[hidden]right-> Square44
+Square44 -[hidden]right-> Square45
+Square45 -[hidden]right-> Square46
+Square46 -[hidden]right-> Square47
+Square47 -[hidden]right-> Square48
+
+Square51 -[hidden]right-> Square52
+Square52 -[hidden]right-> Square53
+Square53 -[hidden]right-> Square54
+Square54 -[hidden]right-> Square55
+Square55 -[hidden]right-> Square56
+Square56 -[hidden]right-> Square57
+Square57 -[hidden]right-> Square58
+
+Square61 -[hidden]right-> Square62
+Square62 -[hidden]right-> Square63
+Square63 -[hidden]right-> Square64
+Square64 -[hidden]right-> Square65
+Square65 -[hidden]right-> Square66
+Square66 -[hidden]right-> Square67
+Square67 -[hidden]right-> Square68
+
+Square71 -[hidden]right-> Square72
+Square72 -[hidden]right-> Square73
+Square73 -[hidden]right-> Square74
+Square74 -[hidden]right-> Square75
+Square75 -[hidden]right-> Square76
+Square76 -[hidden]right-> Square77
+Square77 -[hidden]right-> Square78
+
+Square81 -[hidden]right-> Square82
+Square82 -[hidden]right-> Square83
+Square83 -[hidden]right-> Square84
+Square84 -[hidden]right-> Square85
+Square85 -[hidden]right-> Square86
+Square86 -[hidden]right-> Square87
+Square87 -[hidden]right-> Square88
+
+Square11 -[hidden]down-> Square21
+Square12 -[hidden]down-> Square22
+Square13 -[hidden]down-> Square23
+Square14 -[hidden]down-> Square24
+Square15 -[hidden]down-> Square25
+Square16 -[hidden]down-> Square26
+Square17 -[hidden]down-> Square27
+Square18 -[hidden]down-> Square28
+
+Square21 -[hidden]down-> Square31
+Square22 -[hidden]down-> Square32
+Square23 -[hidden]down-> Square33
+Square24 -[hidden]down-> Square34
+Square25 -[hidden]down-> Square35
+Square26 -[hidden]down-> Square36
+Square27 -[hidden]down-> Square37
+Square28 -[hidden]down-> Square38
+
+Square31 -[hidden]down-> Square41
+Square32 -[hidden]down-> Square42
+Square33 -[hidden]down-> Square43
+Square34 -[hidden]down-> Square44
+Square35 -[hidden]down-> Square45
+Square36 -[hidden]down-> Square46
+Square37 -[hidden]down-> Square47
+Square38 -[hidden]down-> Square48
+
+Square41 -[hidden]down-> Square51
+Square42 -[hidden]down-> Square52
+Square43 -[hidden]down-> Square53
+Square44 -[hidden]down-> Square54
+Square45 -[hidden]down-> Square55
+Square46 -[hidden]down-> Square56
+Square47 -[hidden]down-> Square57
+Square48 -[hidden]down-> Square58
+
+Square51 -[hidden]down-> Square61
+Square52 -[hidden]down-> Square62
+Square53 -[hidden]down-> Square63
+Square54 -[hidden]down-> Square64
+Square55 -[hidden]down-> Square65
+Square56 -[hidden]down-> Square66
+Square57 -[hidden]down-> Square67
+Square58 -[hidden]down-> Square68
+
+Square61 -[hidden]down-> Square71
+Square62 -[hidden]down-> Square72
+Square63 -[hidden]down-> Square73
+Square64 -[hidden]down-> Square74
+Square65 -[hidden]down-> Square75
+Square66 -[hidden]down-> Square76
+Square67 -[hidden]down-> Square77
+Square68 -[hidden]down-> Square78
+
+Square71 -[hidden]down-> Square81
+Square72 -[hidden]down-> Square82
+Square73 -[hidden]down-> Square83
+Square74 -[hidden]down-> Square84
+Square75 -[hidden]down-> Square85
+Square77 -[hidden]down-> Square87
+Square78 -[hidden]down-> Square88
+
+Square11 .[hidden]. dimensionNote
+@enduml
+
+PlantUML version 1.2021.4beta2(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

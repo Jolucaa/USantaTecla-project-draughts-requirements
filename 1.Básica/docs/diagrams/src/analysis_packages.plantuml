@@ -1,0 +1,358 @@
+@startuml analisis_arquitectura_paquetes
+
+package models
+package views
+package types
+package controllers
+
+views -down-> controllers
+controllers -down-> models
+
+controllers -down-> types
+models -down-> types
+views -down-> types
+
+@enduml
+
+@startuml analisis_arquitectura
+
+package views{
+    class BoardView
+    class View
+    class CoordinateView
+    class ErrorView
+    enum  Message
+    class MessageView
+    class MovePieceView
+    class PlayerView
+    class ResumeView
+    class StartView
+}
+
+BoardView .down.> MessageView
+BoardView .down.> Message
+MessageView .down.> Message
+View *-down-> StartView
+View *-down-> MovePieceView
+View *-down-> ResumeView
+CoordinateView .down.> ErrorView
+MovePieceView .down.> MessageView
+MovePieceView .down.> BoardView
+MovePieceView .down.> PlayerView
+MovePieceView .down.> Message
+PlayerView .down.> CoordinateView
+PlayerView .down.> ErrorView
+PlayerView .down.> Message
+ResumeView .down.> Message
+StartView .down.> MessageView
+StartView .down.> BoardView
+StartView .down.> Message
+
+package models{
+    class Board
+    class Draught
+    class Game
+    class Pawn 
+    abstract class Piece 
+    class Player 
+    class Turn
+}
+
+Board *-down-> "*" Piece
+Game *-down-> Board
+Game *-down-> Turn
+Player *-down-> Board
+Turn *-down-> Board
+Turn *-down-> "*" Player
+Piece <|-down- Pawn
+Piece <|-down- Draught
+
+package controllers{
+    abstract class Controller
+    class StartController
+    class MovePieceController
+    class ResumeController
+}
+
+Controller <|-down- StartController
+Controller <|-down- MovePieceController
+Controller <|-down- ResumeController
+
+package types{
+    enum Color
+    enum Error
+    class Coordinate
+}
+
+views .down.> controllers
+controllers .down.> models
+views .down.> types
+models .down.> types
+
+@enduml
+
+@startuml analisis_arquitectura_views
+
+abstract class Controller as "controllers.\nController"
+class StartController as "controllers.\nStartController"
+class MovePieceController as "controllers.\nmovePieceController"
+class ResumeController as "controllers.\nResumeController"
+class Coordinate as "types.\nCoordinate"
+enum Error as "types.\nError"
+
+package views{
+    class BoardView{
+        ~ write(Controller)
+    }
+    class View{
+        # start()
+        # play()
+        # resume()
+    }
+    class CoordinateView{
+        + read(String): Coordinate
+        + getErrorMessage(): String
+    }
+    class ErrorView{
+        + writeln(Error)
+    }
+    enum Message{
+        + TITLE
+        + VERTICAL_LINE
+        + ENTER_COORDINATE_TO_PUT
+        + COORDINATE_TO_PUT
+        + COORDINATE_TO_REMOVE
+        + COORDINATE_TO_MOVE
+        + PLAYER_WIN
+        + DRAW
+        + RESUME
+        - message: String
+        ~ Message(String)
+        + toString(): String
+    }
+    class MessageView{
+        ~ write(Message)
+        ~ writeln(Message)
+        ~ writeln(Message)
+    }
+    class MovePieceView{
+        ~ interact()
+    }
+    class PlayerView{
+        ~ interact()
+        - movePiece()
+        - getOriginMovePieceError(Coordinate): Error
+        - getTargetMovePieceError(Coordinate,Coordinate): Error
+    }
+    class ResumeView{
+        ~ interact()
+    }
+    class StartView{
+        ~ interact()
+    }
+}
+
+View *-down-> StartView
+View *-down-> MovePieceView
+View *-down-> ResumeView
+View .down.> StartController
+View .down.> MovePieceController
+View .down.> ResumeController
+StartView -down-> StartController
+StartView .down.> Message
+StartView .down.> MessageView
+StartView .down.> BoardView
+MovePieceView .down.> MessageView
+MovePieceView .down.> BoardView
+MovePieceView .down.> PlayerView
+MovePieceView -down-> MovePieceController
+MovePieceView .down.> Message
+ResumeView -down-> ResumeController
+ResumeView .down.> Message
+BoardView .down.> MessageView
+BoardView .down.> Controller
+BoardView .down.> Coordinate
+BoardView .down.> Message
+PlayerView .down.> CoordinateView
+PlayerView .down.> ErrorView
+PlayerView -down-> MovePieceController
+PlayerView .down.> Coordinate
+PlayerView .down.> Error
+MessageView .down.> Message
+CoordinateView .down.> Coordinate
+CoordinateView .down.> ErrorView
+CoordinateView .down.> Error
+ErrorView .down.> Error
+
+@enduml
+
+@startuml analisis_arquitectura_models
+
+class Coordinate as "types.\nCoordinate"
+enum Error as "types.\nError"
+enum Color as "types.\nColor"
+
+package models{
+    class Board{
+        ~ Board()
+        ~ reset()
+        ~ movePiece(Coordinate,Coordinate)
+        ~ isEmpty(Coordinate): boolean
+        ~ putPiece(Coordinate,Piece)
+        ~ getPiece(Coordinate): Piece
+        ~ getTargetError(Coordinate,Coordinate): Error
+        ~ isFinished(Color): boolean
+        ~ isWinner(Color): boolean
+    }
+    class Draught{
+        ~ Draught(Color)
+    }
+    class Game{
+        + Game()
+        + reset()
+        + movePiece(Coordinate,Coodinate)
+        + getOriginError(Coordinate): Error
+        + getTargetError(Coordinate,Coordinate): Error
+        + isFinished(): boolean
+        + isWinner(): boolean
+        + getActiveColor(): Color
+        + next()
+    }
+    class Pawn{
+        - MAX_MOVE_DISTANCE: int = 1
+        - MAX_JUMP_DISTANCE: int = 2
+        ~ Pawn(Color)
+    }
+    abstract class Piece{
+        ~ Piece(Color)
+        ~ getMoveTargetError(Coordinate,Coordinate): Error
+        ~ getJumpTargetError(Coordinate,Coordinate): Error
+        ~ getColor(): Color
+        # {abstract} isTooFarMove(Coordinate,Coordinate): boolean
+        # {abstract} isTooFarJump(Coordinate,Coordinate): boolean
+    } 
+    class Player{
+        ~ Player(Color,Board)
+        ~ movePiece(Coordinate,Coordinate)
+        ~ getOriginError(Coordinate): Error
+        ~ getTargetError(Coordinate,Coordinate): Error
+        ~ getColor(): Color
+    } 
+    class Turn{
+        + {static} NUMBER_PLAYERS: int = 2
+        - activePlayer: int
+        ~ Turn(Board)
+        ~ reset()
+        ~ next()
+        ~ getActivePlayer(): Player
+        ~ getActiveColor(): Color
+        ~ movePiece(Coordinate,Coordinate)
+        ~ getOriginError(Coordinate): Error
+        ~ getTargetError(Coordinate,Coordinate): Error
+    }
+}
+
+Game *-down-> Board
+Game *-down-> Turn
+Game .down.> Color
+Game .down.> Error
+Game .down.> Coordinate
+Turn *-down-> Board
+Turn *-down-> "*" Player
+Turn .down.> Color
+Turn .down.> Error
+Turn .down.> Coordinate
+Player *-down-> Board
+Player *-down-> Color
+Player *-down-> Coordinate
+Player *-down-> Error
+Board *-down-> "*" Piece
+Board .down.> Color
+Board .down.> Error
+Board .down.> Coordinate
+Piece <|-down- Pawn
+Piece <|-down- Draught
+Piece *-down-> Color
+Piece .down.> Error
+Piece .down.> Coordinate
+
+@enduml
+
+@startuml analisis_arquitectura_controllers
+
+class Game as "models.\nGame"
+class Coordinate as "types.\nCoordinate"
+enum Error as "types.\nError"
+enum Color as "types.\nColor"
+
+package controllers{
+    abstract class Controller{
+        ~ Controller(Game)
+        + getColor(Coordinate): Color
+    }
+    class StartController{
+        + StartController(Game)
+    }
+    class MovePieceController{
+        + PlayController(Game)
+        + isFinished(): boolean
+        + isWinner(): boolean
+        + next()
+        + movePiece(Coordinate,Coordinate)
+        + getOriginError(Coordinate): Error
+        + getTargetError(Coordinate,Coordinate):Error
+    }
+    class ResumeController{
+        + ResumeController(Game)
+        + reset()
+    }
+}
+
+Controller <|-down- StartController
+Controller <|-down- MovePieceController
+Controller <|-down- ResumeController
+Controller *-down-> Game
+Controller .down.> Coordinate
+MovePieceController .down.> Color
+MovePieceController .down.> Coordinate
+MovePieceController .down.> Error
+
+@enduml
+
+@startuml analisis_arquitectura_types
+
+package types{
+    enum Color{
+        + WHITE
+        + BLACK
+        + NULL 
+        + {static} get(int): Color
+        + {static} getInitialColor(Coordinate)
+        + getInitial(): char 
+        + opposite(): Color
+        + isNull(): boolean
+    }
+    enum Error{
+        + NOT_EMPTY
+        + NOT_OWNER
+        + SAME_COORDINATES
+        + WRONG_COORDINATES
+        + NOT_DIAGONAL
+        + NOT_VALID_WAY
+        + COLLEAGUE_EATING
+        + TOO_FAR
+        + TOO_MUCH_EATING
+        + BLOCKED_PIECE
+        + NULL
+        + isNull(): boolean
+    }
+    class Coordinate{
+        + {static}DIMENSION: int = 8
+        + Coordinate(int,int)
+        + getOrthogonalVector(Coordinate): Coordinate
+        + isInitialPiecePosition(): boolean
+        + getDiagonalCoordinates(Coordinate)
+    }
+}
+
+@enduml

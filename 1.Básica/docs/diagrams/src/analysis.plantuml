@@ -1,0 +1,227 @@
+@startuml analisis_casouso_start
+
+allow_mixing
+actor Player
+package views{
+    object StartView
+    object Message
+    object MessageView
+    object BoardView
+}
+package types{
+    object Color
+    object Coordinate
+}
+package controllers{
+    object StartController
+}
+package models{
+    object Game
+    object Board
+    object Piece
+}
+Player -down-> StartView 
+note on link
+start()
+end note
+StartView .down.> MessageView
+note on link
+write()
+end note
+StartView .down.> BoardView
+note on link
+write()
+end note
+StartView .down.> Message
+MessageView .down.> Message
+BoardView .down.> MessageView
+note on link
+new()
+write()
+end note
+BoardView .down.> Coordinate
+note on link
+new()
+end note
+BoardView -down-> StartController
+note on link
+getColor()
+end note
+StartController -down-> Game
+note on link
+getColor()
+end note
+Game .down.> Board
+note on link
+getColor()
+end note
+Board .down.> Piece
+note on link
+getColor()
+end note
+Piece -down-> Color
+
+@enduml
+
+@startuml analisis_casouso_move_piece
+allow_mixing
+actor :Player: as Playerr
+
+package views{
+    object MovePieceView
+    object BoardView
+    object PlayerView
+    object ErrorView
+}
+package types{
+    object Coordinate
+}
+package controllers{
+    object MovePieceController
+}
+package models{
+    object Game
+    object Board
+    object Piece
+    object Player
+    object Turn
+}
+
+Playerr -down-> MovePieceView
+note on link
+movePiece()
+end note
+MovePieceView .down.> BoardView
+note on link
+write()
+end note
+MovePieceView -down-> MovePieceController
+note on link
+isWinner()
+isFinished()
+next()
+end note
+BoardView .down.> Coordinate
+note on link
+new()
+end note
+MovePieceView .down.> PlayerView
+note on link
+interact()
+end note
+PlayerView .down.> Coordinate
+PlayerView .down.> ErrorView
+note on link
+new()
+writeln()
+end note
+PlayerView -down-> MovePieceController
+note on link
+movePiece()
+getOriginMovePieceError(Coordinate)
+getTargetMovePieceError(Coordinate,Coordinate)
+getCoordinate(Message)
+end note
+BoardView -down-> MovePieceController
+note on link
+getColor(Coordinate)
+end note
+MovePieceController -down-> Game
+note on link
+movePiece()
+getOriginError(Coordiante)
+getTargetError(Coordinate,Coordinate)
+next()
+isWinner()
+isFinished()
+getColor(Coordinate)
+end note
+Game *-down-> Turn
+note on link
+movePiece()
+getOriginError(Coordinate)
+getTargetError(Coordinate,Coordinate)
+getActiveColor()
+next()
+end note
+Game *-down-> Board
+note on link
+isWinner()
+isFinished()
+getColor(Coordinate)
+end note
+Turn .down.> Player
+note on link
+movePiece()
+getActivePlayer()
+getOriginError(Coordinate)
+getTargetError(Coordinate,Coordinate)
+end note
+Player .down.> Board
+note on link
+movePiece()
+getOriginError(Coordinate)
+getTargetError(Coordinate,Coordinate)
+end note
+Board .down.>Piece
+
+@enduml
+
+@startuml analisis_casouso_resume
+allow_mixing
+actor :Player: as Playerr
+
+package views{
+    object ResumeView
+    object MessageView
+    object Message
+}
+package types{
+    object Color
+}
+package controllers{
+    object ResumeController
+}
+package models{
+    object Game
+    object Board
+    object Piece
+    object Player 
+    object Turn
+}
+Playerr -down-> ResumeView
+note on link
+resume()
+end note
+ResumeView -down-> ResumeController
+note on link
+reset()
+end note
+ResumeView .down.> MessageView
+note on link
+write()
+end note
+MessageView .down.> Message
+ResumeController -down-> Game
+note on link
+reset()
+end note
+Game *-down-> Board
+note on link
+reset()
+end note
+Game *-down-> Turn
+note on link
+reset()
+end note
+Turn .down.> Player
+note on link
+new()
+end note
+Board .down.> Piece
+note on link
+new()
+end note
+Piece -down-> Color
+
+@enduml

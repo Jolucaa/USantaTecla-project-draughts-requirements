@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="349px" preserveAspectRatio="none" style="width:202px;height:349px;" version="1.1" viewBox="0 0 202 349" width="202px" zoomAndPan="magnify"><defs><filter height="300%" id="f1jw2jfs4fm373" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[aa3b458352135463a5a0f2d2a48ef4d9]
+entity models--><polygon fill="#FEFECE" filter="url(#f1jw2jfs4fm373)" points="53.5,204,129.5,204,136.5,226.2969,153.5,226.2969,153.5,243.2969,53.5,243.2969,53.5,204" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="53.5" x2="136.5" y1="226.2969" y2="226.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="58" x="63.5" y="219.9951">models</text><!--MD5=[1affcf8a646183f59d752b76f98e02e7]
+entity views--><polygon fill="#FEFECE" filter="url(#f1jw2jfs4fm373)" points="16,6,79,6,86,28.2969,103,28.2969,103,45.2969,16,45.2969,16,6" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="86" y1="28.2969" y2="28.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="45" x="26" y="21.9951">views</text><!--MD5=[4774a4ee563c42801436b712436441d4]
+entity types--><polygon fill="#FEFECE" filter="url(#f1jw2jfs4fm373)" points="60,303,123,303,130,325.2969,147,325.2969,147,342.2969,60,342.2969,60,303" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="60" x2="130" y1="325.2969" y2="325.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="45" x="70" y="318.9951">types</text><!--MD5=[a7825cdfc9773e2ccb28c0d25db19e9e]
+entity controllers--><polygon fill="#FEFECE" filter="url(#f1jw2jfs4fm373)" points="54,105,161,105,168,127.2969,185,127.2969,185,144.2969,54,144.2969,54,105" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="54" x2="168" y1="127.2969" y2="127.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="89" x="64" y="120.9951">controllers</text><!--MD5=[fd4dadafb7dfafd89665a9151015bafc]
+link views to controllers--><path d="M71.0686,45.203 C80.7802,60.903 94.6991,83.405 105.1252,100.261 " fill="none" id="views-to-controllers" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="107.9669,104.855,106.6347,95.0967,105.3368,100.6026,99.8309,99.3048,107.9669,104.855" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[6bfde5656e7ece32836aeea1e9e8a819]
+link controllers to models--><path d="M116.415,144.203 C113.8474,159.769 110.1769,182.021 107.4048,198.827 " fill="none" id="controllers-to-models" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="106.5755,203.855,111.9855,195.625,107.3884,198.9215,104.0919,194.3244,106.5755,203.855" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[c460ee89b467576f4399504260eade9f]
+link controllers to types--><path d="M137.328,144.363 C156.797,167.353 183.579,207.53 170.5,243 C162.385,265.0068 145.05,285.0334 130.047,299.3506 " fill="none" id="controllers-to-types" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="126.289,302.8653,135.5941,299.6382,129.9404,299.4496,130.129,293.7959,126.289,302.8653" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[9da2d375dc0417b2d3724b966d4c0d45]
+link models to types--><path d="M103.5,243.2026 C103.5,258.7688 103.5,281.021 103.5,297.8274 " fill="none" id="models-to-types" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="103.5,302.8548,107.5,293.8548,103.5,297.8548,99.5,293.8548,103.5,302.8548" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[a47103ae2ffafd08434d69e1e4d1349a]
+link views to types--><path d="M51.8951,45.158 C37.4289,83.537 9.6024,173.55 35.5,243 C43.7469,265.1157 61.3403,285.1399 76.5652,299.4287 " fill="none" id="views-to-types" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="80.3778,302.9356,76.4618,293.8987,76.6978,299.5506,71.0459,299.7866,80.3778,302.9356" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[a46d0c3236e78df89f868d32f01c4ab4]
+@startuml
+package models
+package views
+package types
+package controllers
+
+views -down-> controllers
+controllers -down-> models
+
+controllers -down-> types
+models -down-> types
+views -down-> types
+@enduml
+
+PlantUML version 1.2021.4beta1(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
