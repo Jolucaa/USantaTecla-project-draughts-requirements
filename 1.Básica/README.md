@@ -25,7 +25,7 @@ Universo Santa Tecla
 4. [Diseño](#diseño)   
    4.1. [Vista de despliegue](#vista-de-despliegue)  
    4.2. [Vista de participantes](#vista-de-participantes)  
-   4.3. [Vista de interacción de participantes](#vista-de-interaccin-de-participantes)
+   4.3. [Vista de interacción de participantes](#vista-de-interaccion-de-participantes)
 ## Requisitos
 
 | [Wiki](https://en.wikipedia.org/wiki/Mastermind_(board_game)) - [Youtube](https://www.youtube.com/watch?v=r-7R2sCW3Ro&ab_channel=wikiHow)<br/> * _Funcionalidad: **Básica**_<br/>  * _Interfaz: **Texto**_<br/>  * _Distribución: **Standalone**_<br/>  * _Persistencia: **No**_<br/> | ![Mastermind](../docs/images/draughts.jpg) | 
