@@ -23,9 +23,9 @@ Universo Santa Tecla
    3.4.2. [Analisis Mover_Pieza](#analisis-move-piece)  
    3.4.3. [Analisis Resume](#analisis-resume)
 4. [Diseño](#diseo)   
-   4.1. [Diseño de la arquitectura](#diseo-de-la-arquitectura)  
-   4.2. [Diseño de casos de uso](#diseo-de-casos-uso)
-
+   4.1. [Vista de despliegue](#vista-de-despliegue)  
+   4.2. [Vista de participantes](#vista-de-participantes)  
+   4.3. [Vista de interacción de participantes](#vista-de-interaccin-de-participantes)
 ## Requisitos
 
 | [Wiki](https://en.wikipedia.org/wiki/Mastermind_(board_game)) - [Youtube](https://www.youtube.com/watch?v=r-7R2sCW3Ro&ab_channel=wikiHow)<br/> * _Funcionalidad: **Básica**_<br/>  * _Interfaz: **Texto**_<br/>  * _Distribución: **Standalone**_<br/>  * _Persistencia: **No**_<br/> | ![Mastermind](../docs/images/draughts.jpg) | 
@@ -122,9 +122,11 @@ Column: 3
 
 ## Diseño
 
-### Diseño de la arquitectura
+### Vista de despliegue
 ![Diseño](./docs/diagrams/out/design/diseño_la_arquitectura.svg)
 
-### Diseño de casos uso
+### Vista de participantes
 ![Diseño](./docs/diagrams/out/design/diseño_caso_uso.svg)
 
+### Vista de interacción de participantes
+![Diseño](./docs/diagrams/out/design/secuencia.svg)
