@@ -7,7 +7,7 @@ Universo Santa Tecla
 1. [Modelo del dominio](#modelo-del-dominio)  
    1.1. [Vocabulario](#vocabulario)  
    1.2. [Estado inicial](#estado-inicial)  
-   1.3. [Secuencia comer_pieza](#secuencia-comer-pieza)
+   1.3. [Secuencia comer pieza](#secuencia-comer-pieza)
 
 ## Modelo del dominio
 
